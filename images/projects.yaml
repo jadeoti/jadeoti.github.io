@@ -1,0 +1,130 @@
+# List of my portfolio projects.
+- name: GoodWealth Android App
+  date: 2016-2017
+  extra_classes: tall
+  description: |
+    GoodWealth is personal finance management application from Litec solutions. The app serves to:
+
+    * Help you automatically capture financial transactions across multiple bank accounts regardless of the bank.
+    * Give you a 360 degree real-time and accurate view of finances.
+
+    My role has been to convert business requirements into working app. I have been the overall technical lead for the app.
+
+  actions:
+  - caption: Install app
+    url: https://play.google.com/store/apps/details?id=com.litec.goodwealth
+
+  pages:
+   - image: iosched_2014_vignette.png
+     color: 'material indigo 100'
+     caption: The 2014 app was one of the very first apps to adopt material design.
+
+   - image: iosched_2013_vignette.png
+     color: '#fff'
+     caption: The 2013 app was one of the first to support 7-inch tablets for Android, helping light the path for Android tablet UI design.
+
+   - image: iosched_2011_vignette.png
+     color: 'material grey 100'
+     caption: The 2011 app was one of the first to support the new tablet form factor with multi-pane UIs.
+
+
+###################################################################################################
+
+
+- name: Chef Tent Android App
+  date: 2016 – 2017
+  extra_classes: tall
+  description: |
+   Online food ordering platform helping  to connect kitchens and customers
+
+  actions:
+  - caption: Install app
+    url: https://play.google.com/store/apps/details?id=com.morphinnovations.kiosk
+  - caption: View Site
+    url: http://cheftent.com
+  pages:
+  - image: iosched_2014_vignette.png
+    color: 'material indigo 100'
+    caption: The 2014 app was one of the very first apps to adopt material design.
+
+  - image: iosched_2013_vignette.png
+    color: '#fff'
+    caption: The 2013 app was one of the first to support 7-inch tablets for Android, helping light the path for Android tablet UI design.
+
+  - image: iosched_2011_vignette.png
+    color: 'material grey 100'
+    caption: The 2011 app was one of the first to support the new tablet form factor with multi-pane UIs.
+
+
+###################################################################################################
+
+
+- name: Chef Tent Android App
+  date: 2016 – 2017
+  extra_classes: tall
+  description: |
+   Online food ordering platform helping  to connect kitchens and customers
+
+  actions:
+  - caption: Install app
+    url: https://play.google.com/store/apps/details?id=com.morphinnovations.kiosk
+  - caption: View Site
+    url: http://cheftent.com
+
+  pages:
+    - image: iosched_2014_vignette.png
+      color: 'material indigo 100'
+      caption: The 2014 app was one of the very first apps to adopt material design.
+
+    - image: iosched_2013_vignette.png
+      color: '#fff'
+      caption: The 2013 app was one of the first to support 7-inch tablets for Android, helping light the path for Android tablet UI design.
+
+    - image: iosched_2011_vignette.png
+      color: 'material grey 100'
+      caption: The 2011 app was one of the first to support the new tablet form factor with multi-pane UIs.
+###################################################################################################
+
+
+- name: Billing Data Aggregator
+  description: |
+    An app for making mobile payments and invoicing.
+
+  pages:
+  - video: tools_sketch_artboard_tricks
+    color: '#F1F1F1'
+    color2: 'material teal 500'
+    caption: "Like many other designers, I've switched to using Sketch for most of my UI work. In my unrelenting quest to improve my own productivity, I started writing Sketch plugins. [Sketch Artboard Tricks](https://github.com/romannurik/sketch-artboardtricks) is one that I wrote that many designers on my current team now use."
+
+  - video: tools_assetstudio
+    color: 'material light-blue 100'
+    color2: '#0099CC'
+    device_frame: browser
+    caption: The [Android Asset Studio](http://j.mp/androidassetstudio) was one of the first tools I wrote, aiming to take the guesswork out of Android app icon sizing and effects. Plug in some values and it generates all the necessary assets for each screen density.
+
+  - video: tools_layervisualizer
+    color: 'material cyan 100'
+    color2: 'material cyan 500'
+    device_frame: browser
+    caption: The [Layer Visualizer](https://github.com/romannurik/LayerVisualizer) was a quick tool I built for helping [teach material design](https://www.udacity.com/course/material-design-for-android-developers--ud862), specifically the depth relationships of material surfaces. [See on Dribbble](https://dribbble.com/shots/2238573-Google-I-O-App-Layer-Visualization)
+
+  - video: tools_designpreview
+    extra_classes: dark no-padding
+    color: '#2D2D2D'
+    color2: 'material deep-orange 500'
+    caption: "[Android Design Preview](https://github.com/romannurik/AndroidDesignPreview) is a tool I co-wrote that allows designers to get a more realistic view of their UIs by mirroring a portion of their computer screen to an Android device."
+
+  - video: tools_ninepatch
+    color: 'material light-blue 100'
+    color2: '#0099CC'
+    device_frame: browser
+    caption: Nine-patches are notoriously tedious to produce, especially in bulk. I built the [nine-patch generator](http://romannurik.github.io/AndroidAssetStudio/nine-patches.html), to simplify the process of creating optimized nine-patches for all densities.
+
+  - video: tools_deviceart
+    color: 'material green 100'
+    color2: '#6ab344'
+    device_frame: browser
+    caption: I recognized several years ago that developers were using device frames inconsistently, with poor lighting/sheen, shadows, etc. I decided to make an easy-to-use [generator](http://developer.android.com/distribute/tools/promote/device-art.html) for Nexus device-framed images.
+
+
+###################################################################################################
