@@ -73,7 +73,7 @@ body {
 }
 .content {
     padding: 24px;
-    width: 300px;
+    width: 600px;
     color: rgba(255, 255, 255, .8);
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
