@@ -1,59 +1,42 @@
 <!doctype html>
-<html lang=en>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Adedeji Adeoti | Senior Software Engineer</title>
+    <meta name="description" content="Senior Software Engineer at Microsoft building distributed web services. Portfolio and articles on software engineering." />
+    <meta name="author" content="Adedeji Adeoti" />
+    <link rel="canonical" href="https://jadeoti.github.io" />
 
-<head>
-  <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-125088950-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+    <meta property="og:title" content="Adedeji Adeoti | Senior Software Engineer" />
+    <meta property="og:description" content="Senior Software Engineer at Microsoft building distributed web services." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-    gtag('config', 'UA-125088950-1');
-  </script>
-  
-  <meta charset=utf-8>
-  <meta http-equiv=X-UA-Compatible content="IE=edge">
-  <meta name=theme-color content=#ffffff>
-  <meta name=viewport content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name=description content="Hi, I'm 'Deji Adeoti. I'm a senior software engineer at Microsoft, Lagos, Nigeria">
-  <title>Adedeji Adeoti</title>
-  <meta name=mobile-web-app-capable content=yes>
-  <link rel=icon sizes=192x192 href=chrome-touch-icon-192x192.png>
-  <meta name=apple-mobile-web-app-capable content=yes>
-  <meta name=apple-mobile-web-app-status-bar-style content=black>
-  <meta name=apple-mobile-web-app-title content="Adedeji Adeoti">
-  <link rel=apple-touch-icon-precomposed href=apple-touch-icon-precomposed.png>
-  <link rel=stylesheet href=/styles/landing.css>
-  <script src="https://use.typekit.net/egz3zmb.js"></script>
-  <script>
-    try{Typekit.load({ async: true });}catch(e){}
-  </script>
-</head>
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@jadeoti" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
 
-<body>
-  <div class=top></div>
-  <div class=content-container>
-    <div class=content>
-      <div class=avatar></div>
-      <p>Hi, I’m Adedeji.</p>
-      <p>I’m a senior software engineer at <a href=https://www.microsoft.com/>Microsoft</a> Lagos, Nigeria.</p>
-      <p>I build distributed web services. Currently working on <a href="https://www.microsoft.com/en-us/mesh">Microsoft Mesh</a>.
-         Earlier, worked on the microservices that powered Interswitch's <a href="https://paypoint.quickteller.com/">Quickteller Paypoint</a>. See more in my <a href="/portfolio/">portfolio</a>.</p>
-      <div class=icons>
-        <a rel=me href=https://github.com/jadeoti title=GitHub class=github></a>
-        <a rel=me href=https://www.linkedin.com/in/adeoti/ title=LinkedIn class=linkedin></a>
-        <a rel=me title=Email class="email obfuscated" data-email="adedejadeoti gmail com"></a>
-      </div>
-    </div>
-  </div>
-  <div class=bottom></div>
-  <script src=/lib/jquery/dist/jquery.min.js></script>
-  <script src=/lib/fastclick/lib/fastclick.js></script>
-  <script src=/scripts/landing.js></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Sora:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
 
- 
-
-</body>
-
+  <body>
+    <!-- GitHub Pages SPA redirect handler -->
+    <script type="text/javascript">
+      (function(l) {
+        if (l.search[1] === '/' ) {
+          var decoded = l.search.slice(1).split('&').map(function(s) { 
+            return s.replace(/~and~/g, '&')
+          }).join('?');
+          window.history.replaceState(null, null,
+              l.pathname.slice(0, -1) + decoded + l.hash
+          );
+        }
+      }(window.location))
+    </script>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
 </html>
