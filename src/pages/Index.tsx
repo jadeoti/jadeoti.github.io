@@ -159,7 +159,7 @@ const Index = () => {
               {featuredProject.description}
             </p>
             <Button asChild variant="outline" size="sm" className="gap-2">
-              <a href="https://www.microsoft.com/en-us/mesh" target="_blank" rel="noopener noreferrer">
+              <a href="hhttps://portal.azure.com/#view/Microsoft_AAD_DXP/DiagnosticsHome.ReactView" target="_blank" rel="noopener noreferrer">
                 Learn More
                 <ArrowRight className="w-4 h-4" />
               </a>
