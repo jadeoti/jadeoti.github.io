@@ -23,28 +23,57 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "ihx",
+    title: "Identity Diagnostics Platform",
+    description: "Platform for diagnosing and resolving identity issues across Microsoft's cloud services.",
+    period: "2025 - Present",
+    role: "Tech Lead",
+    technologies: ["C#", ".NET", "Azure", "Microservices", "AutoPilot", "Cosmos DB"],
+    links: [
+      { label: "Learn More", url: "https://portal.azure.com/#view/Microsoft_AAD_DXP/DiagnosticsHome.ReactView" }
+    ],
+    highlights: [
+      "Building Web Services and tools for identity diagnostics",
+      "Gen AI integration for insight generation and issue resolution",
+    ]
+  },
+  {
     id: "mesh",
     title: "Microsoft Mesh",
     description: "Mixed reality platform enabling presence and shared experiences across devices.",
-    period: "2022 - Present",
-    role: "Senior Software Engineer",
+    period: "2022 - 2024",
+    role: "Engineering Manager",
     technologies: ["C#", ".NET", "Azure", "Microservices"],
     links: [
       { label: "Learn More", url: "https://www.microsoft.com/en-us/mesh" }
     ],
     highlights: [
       "Building distributed web services for the Mesh platform",
-      "Designing scalable backend infrastructure on Azure",
+      "Designing scalable backend infrastructure templates to serve multiple teams on Azure",
       "Implementing real-time communication systems"
+    ]
+  },
+  {
+    id: "aoa",
+    title: "Azure Object Anchors",
+    description: "Mixed reality service that uses AI to recognize real-world objects and create corresponding 3D models for immersive experiences.",
+    period: "2021 - 2022",
+    role: "Engineering Manager",
+    technologies: ["C#", ".NET", "Azure", "Microservices", "Kubernetes", "Cosmos DB"],
+    links: [
+      { label: "Learn More", url: "" }
+    ],
+    highlights: [
+      "Scaling distributed web services for real-time object recognition",
     ]
   },
   {
     id: "quickteller",
     title: "Quickteller Paypoint",
     description: "Payment and financial services platform enabling transactions across Nigeria.",
-    period: "2019 - 2022",
-    role: "Software Engineer",
-    technologies: ["Java", "Spring Boot", "Kubernetes", "PostgreSQL"],
+    period: "2018 - 2021",
+    role: "Senior Software Engineer",
+    technologies: ["Java", "Spring Boot", "Kubernetes", "Sql Server", "RabbitMQ", "MongoDB", "Camel", "Redis"],
     links: [
       { label: "Visit Site", url: "https://paypoint.quickteller.com/" }
     ],
